@@ -16,8 +16,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   position_taken?(board, index) == "X"
   position_taken?(board, index) == "O"
-  **some kind of enumerable**
-  check for XXX or OOO
+  **some kind of enumerable to check for win combination and XXX or OOO**
   if .include?(win_combination) && (board == [X,X,X] || board == [O,O,O])
     win_combination
   else
